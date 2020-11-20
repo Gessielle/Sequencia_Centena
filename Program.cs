@@ -6,7 +6,7 @@ namespace Sequencia_Centena
     {
         static void Main(string[] args)
         {
-            int Numero = 0;
+            int Numero = 1;
             while (Numero<=100)
         
 
