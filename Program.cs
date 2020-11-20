@@ -13,11 +13,12 @@ namespace Sequencia_Centena
             {
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
-                Console.WriteLine($"Numero = { Numero }");
-                Numero++;
+                Console.Write(Numero);
+                Console.Write(" ");
+                Numero += 1;
                 Console.ResetColor();
             }
-        
+                Console.WriteLine("\n");
                 Console.WriteLine("TECLE ENTER PARA SAIR");
                 Console.ReadLine();
                 Console.WriteLine("FIM");
