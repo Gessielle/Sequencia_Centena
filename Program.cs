@@ -11,6 +11,7 @@ namespace Sequencia_Centena
         
 
             {
+
                 Console.BackgroundColor = ConsoleColor.Black;
                 Console.ForegroundColor = ConsoleColor.DarkYellow;
                 Console.Write(Numero);
@@ -18,10 +19,12 @@ namespace Sequencia_Centena
                 Numero += 1;
                 Console.ResetColor();
             }
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("\n");
-                Console.WriteLine("TECLE ENTER PARA SAIR");
+                Console.WriteLine("TECLE ENTER PARA SAIR! ");
                 Console.ReadLine();
-                Console.WriteLine("FIM");
+                Console.WriteLine("---Obrigado!---");
+                Console.ResetColor();
                 Console.ReadKey();
                 
             
